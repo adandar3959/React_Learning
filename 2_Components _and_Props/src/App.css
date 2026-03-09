@@ -1,0 +1,52 @@
+
+.parent {
+  display: flex;
+  flex-wrap: wrap;     
+  gap: 20px;          
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.card {
+  border-radius: 15px;
+  background-color: palevioletred;
+  padding: 25px;
+  width: 350px; 
+  display: flex;
+  flex-direction: column; 
+  align-items: center;  
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  color: white;         
+}
+
+.card img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 4px solid white; 
+}
+
+.card h1 {
+  margin: 15px 0 5px 0;
+  font-size: 1.5rem;
+}
+
+.card h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.card button {
+  background-color: white;
+  border: none;
+  color: palevioletred;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
